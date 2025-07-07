@@ -1,13 +1,12 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-
+DOMAIN-SUFFIX,ddnsto.com
+DOMAIN-SUFFIX,kooldns.cn
+DOMAIN-SUFFIX,tocmcc.cn
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
-DOMAIN-SUFFIX,ddnsto.com
-DOMAIN-SUFFIX,kooldns.cn
-DOMAIN-SUFFIX,tocmcc.cn
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
@@ -18,6 +17,9 @@ IP-CIDR,219.146.1.66/32,no-resolve
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,ddnsto.com
+DOMAIN-SUFFIX,kooldns.cn
+DOMAIN-SUFFIX,tocmcc.cn
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,219.147.1.66/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
